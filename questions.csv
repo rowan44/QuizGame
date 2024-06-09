@@ -1,0 +1,301 @@
+﻿Number,Questions,Option_A,Option_B,Option_C,Option_D,Correct_Answer,Points
+1,Which of the following is not a fundamental data type in C++?,A) int,B) float,C) double,D) string,D,1
+2,Which keyword is used to define a class in C++?,A) struct,B) class,C) object,D) define,B,1
+3,What is the size of an int variable in C++ (assuming a 32-bit system)?,A) 2bytes,B) 4bytes,C) 8 bytes,D) 16 bytes ,B,1
+4,What is the correct way to overload the '<<' operator in C++?,"A) ostream& operator<<(ostream& os, const MyClass& obj)","B) ostream& operator<<(const MyClass& obj, ostream& os)","C) ostream& operator<<(MyClass& obj, ostream& os)",D) ostream& operator<<(const MyClass& obj),A,1
+5,Which of the following is used to define a function in C++?,A) function,B) func,C) def,D) none of the above,D,1
+6,Which header file is required to use the std::vector container?,A) <vector.h>,B) <array>,C) <vector>,D) <list>,C,1
+7,Which of the following is a valid constructor for a class named MyClass?,A) MyClass(),B) MyClass(void),C) MyClass(int a),D) all of the above,D,1
+8,"Which data structure uses FIFO (First In, First Out) principle?",A) stack,B) queue,C) Linked List,D) Tree,B,1
+9,What is the worst-case time complexity of binary search?,A) O(n),B) O(log n),C) O(n log n),D) O(n^2),B,1
+10,"In a binary tree, the number of leaf nodes is always one more than the number of nodes with two children.",A) True,B) False,C) -,D) -,A,1
+11,Which of the following data structures is not linear?,A) Array,B) Linked List,C) Binary Tree,D) Stack,C,1
+12,Which of the following sorting algorithms has the best average-case time complexity?,A) Bubble Sort,B) Selection Sort,C) Quick Sort,D) Insertion Sort,C,1
+13,What data structure is used in the implementation of a recursion?,A) Queue,B) Stack,C) Linked List,D) Tree,B,1
+14,Which of the following operations is performed more efficiently by doubly linked list than by singly linked list?,A) Searching of an unsorted list for a given item,B) Deletion of a node whose location in given,C) Inverting a node after the node with a given location,D) Traversing a list to process each node,B,1
+15,What is the height of a balanced binary search tree with n nodes?,A) O(n) ,B) O(n log n),C) O(log n),D) O(1),C,1
+16,Which traversal technique is used in Depth-First Search (DFS)?,A) Inorder,B) Preorder,C) Postorder,D) All of the above,D,1
+17,What is the main disadvantage of a linked list over an array?,A) Random access is not allowed,B) It is not easy to insert and delete elements,C) Extra memory space for a pointer is required with each element,D) Both A and C,D,1
+18,Which of the following correctly defines an inline function in C++?,A) inline void func();,B) void inline func();,C) inline void func (){},D) void func() inline;,C,1
+19,Which of the following is not a valid scope in C++?,A) Local,B) Global,C) Namespace,D) File,D,1
+20,Which of the following is the correct syntax to declare a pointer in C++?,A) int ptr*;,B) int *ptr;,C) int ptr;,D) *int ptr;,B,1
+21,Which feature of OOP indicates code reusability?,A) Encapsulation,B) Inheritance,C) Polymorphism,D) Abstract,B,1
+22,What is a destructor in C++?,A) A function called when an object is created,B) A function called when an object is destroyed,C) A function called when memory is allocated,D) A function called to initialize an object,B,1
+23,What is the purpose of the 'this' pointer in C++?,A) To point to the object that invoked the member function,B) To point to the base class of an object,C) To point to the next object in an array,D) To point to a global variable,A,1
+24,Which of the following is a valid way to declare an array in C++?,"A) int arr[] = {1, 2, 3};","B) int arr[3] = {1, 2, 3};",C) int arr[3];,D) All of the above,D,1
+25,"Which data structure uses LIFO (Last In, First Out) principle?",A) Stack,B) Queue,C) Linked List,D) Tree,A,1
+26,What is the best case time complexity of bubble sort?,A) O(n),B) O(n log n),C) O(n^2),D) O(1),A,1
+27,Which of the following is not a self-balancing binary search tree?,A) AVL Tree,B) Red-Black Tree,C) B-Tree,D) Binary Search Tree (BST),D,1
+28,"In a max-heap, the value of a node is always __________ the value of its children.",A) Greater than or equal to,B) Less than or equal to,C) Equal to,D) None of the above,A,1
+29,Which of the following algorithms is used to find the shortest path in a weighted graph?,A) Prim's Algorithm,B) Kruskal's Algorithm,C) Dijkstra's Algorithm,D) DFS Algorithm,C,1
+30,Which data structure is mainly used for implementing recursive function calls?,A) Queue,B) Stack,C) Heap,D) Array,B,1
+31,Which of the following is not an application of a stack?,A) Function calls,B) Undo mechanisms in text editors,C) Page replacement algorithms,D) Expression evaluation,C,1
+32,Which of the following data structures is used to implement BFS (Breadth-First Search)?,A) Stack,B) Queue,C) Linked List,D) Tree,B,1
+33,What is the time complexity to search for an element in a balanced binary search tree?,A) O(n),B) O(log n),C) O(n log n),D) O(1),B,1
+34,Which of the following is not a type of linked list?,A) Singly linked list,B) Doubly linked list,C) Circular linked list,D) Binary linked list,D,1
+35,What is the correct syntax for a for loop in C++?,A) for (int i = 0; i < 10; i++),B) for (int i = 0; i < 10; ++i),C) for (int i = 0; i < 10; i += 1),D) All of the above,D,1
+36,Which of the following is used to dynamically allocate memory in C++?,A) malloc,B) calloc,C) new,D) alloc,C,1
+37,Which header file is needed to use std::string in C++?,A) <iostream>,B) <string>,C) <cstring>,D) <cstdlib>,B,1
+38,Which of the following operators is used to allocate memory for an array in C++?,A) malloc,B) new,C) calloc,D) realloc,B,1
+39,Which of the following is correct about pure virtual functions in C++?,A) They are functions with no implementation.,B) They must be overridden in derived classes.,C) They make the class abstract.,D) All of the above,D,1
+40,Which of the following types of inheritance is not supported in C++?,A) Single inheritance,B) Multiple inheritance,C) Multilevel inheritance,D) Hybrid inheritance,D,1
+41,"In which data structure, each element points to the next, forming a sequence?",A) Stack,B) Queue,C) Linked List,D) Tree,C,1
+42,Which of the following operations is the fastest on an array?,A) Insertion,B) Deletion,C) Access,D) Traversal,C,1
+43,Which sorting algorithm is the most efficient for large datasets?,A) Bubble Sort,B) Insertion Sort,C) Merge Sort,D) Selection Sort,C,1
+44,What is a deque in data structures?,A) Double-ended queue,B) A queue with two levels,C) A queue with limited size,D) A circular queue,A,1
+45,"Which of the following data structures provides an efficient way of searching, inserting, and deleting elements?",A) Array,B) Linked List,C) Hash Table,D) Queue,C,1
+46,Which of the following algorithms uses a divide and conquer approach?,A) Bubble Sort,B) Merge Sort,C) Insertion Sort,D) Selection Sort,B,1
+47,What is the height of a complete binary tree with n nodes?,A) O(n),B) O(n log n),C) O(log n),D) O(1),C,1
+48,Which data structure is used to implement a priority queue?,A) Stack,B) Linked List,C) Heap,D) Array,C,1
+49,Which traversal technique is used in Breadth-First Search (BFS)?,A) Preorder,B) Inorder,C) Postorder,D) Level-order,D,1
+50,What is the main advantage of a doubly linked list over a singly linked list?,A) Requires less memory,B) Easier to implement,C) Can be traversed in both directions,D) Simpler algorithms for insertion and deletion,C,1
+51,What is the correct way to declare a constant pointer in C++?,A) int* const ptr;,B) const int* ptr;,C) int const* ptr;,D) const int* const ptr;,A,1
+52,Which keyword is used to prevent a class from being inherited in C++?,A) final,B) sealed,C) protected,D) private,A,1
+53,What does the keyword 'static' mean when applied to a member variable of a class?,A) The variable is shared by all instances of the class.,B) The variable is unique to each instance of the class.,C) The variable is initialized only once.,D) The variable cannot be changed.,A,1
+54,Which of the following operators cannot be overloaded in C++?,A) +,B) <<,C) ::,D) [],C,1
+55,What is a pure virtual function in C++?,A) A function with no implementation,B) A function with implementation in the base class,C) A function with a default implementation,D) A function that cannot be overridden,A,1
+56,Which of the following is the correct way to create an instance of a class in C++?,A) ClassName object;,B) ClassName* object = new ClassName();,C) ClassName object();,D) Both A and B,D,1
+57,Which of the following is used to define a block of code that needs to be executed before any object of the class is created?,A) Destructor,B) Constructor,C) Static block,D) None of the above,C,1
+58,Which function is used to read a line of text from the standard input in C++?,A) scanf,B) cin,C) gets,D) getline,D,1
+59,Which of the following is not a valid reserved keyword in C++?,A) auto,B) default,C) register,D) implement,D,1
+60,"What does the following code do?  ( int arr[5] = {1, 2, 3, 4, 5};   std::cout << arr[2] + arr[4];  )",A) Outputs 5,B) Outputs 8,C) Outputs 7,D) Outputs 9,B,4
+61,What is the correct syntax for a destructor in C++?,A) ~ClassName(),B) !ClassName(),C) %ClassName(),D) ^ClassName(),A,1
+62,Which operator is used to access the members of a structure through a pointer?,A) .,B) ->,C) *,D) &,B,1
+63,What is the correct way to declare a function that does not return any value?,A) void functionName();,B) int functionName();,C) void functionName;,D) functionName();,A,1
+64,Which of the following correctly defines a friend function in C++?,A) friend void func();,B) void friend func();,C) friend class func();,D) None of the above,A,1
+65,Which data structure allows insertion and deletion at both ends?,A) Stack,B) Queue,C) Deque,D) Array,C,1
+66,Which of the following is not a characteristic of a binary search tree?,A) The left subtree contains only nodes with keys less than the parent node's key.,B) The right subtree contains only nodes with keys greater than the parent node's key.,C) Both left and right subtrees must also be binary search trees.,D) All keys must be unique.,D,1
+67,Which data structure is used for implementing LRU (Least Recently Used) cache?,A) Stack,B) Queue,C) Deque,D) Hash Map,D,1
+68,Which traversal method is used to get the nodes of a binary search tree in ascending order?,A) Preorder,B) Inorder,C) Postorder,D) Level-order,B,1
+69,Which data structure is used to implement a graph?,A) Adjacency matrix,B) Adjacency list,C) Both A and B,D) None of the above,C,1
+70,What is the time complexity of inserting an element into a heap?,A) O(1),B) O(log n),C) O(n),D) O(n log n),B,1
+71,Which of the following is not a balanced tree?,A) AVL tree,B) Red-Black tree,C) Splay tree,D) Binary search tree,D,1
+72,What is the time complexity of accessing an element in an array?,A) O(1),B) O(log n),C) O(n),D) O(n log n),A,1
+73,Which of the following data structures is not used for implementing dynamic programming algorithms?,A) Array,B) Matrix,C) Tree,D) Graph,C,1
+74,Which of the following sorting algorithms is an example of a stable sort?,A) Quick Sort,B) Merge Sort,C) Heap Sort,D) Selection Sort,B,1
+75,Which of the following correctly describes the purpose of the 'virtual' keyword in C++?,A) To declare a function as pure virtual,B) To declare a function to be overridden in derived classes,C) To allow late binding of functions,D) All of the above,D,1
+76,What is the main use of an abstract class in C++?,A) To create a class with no objects,B) To serve as a base class for other classes,C) To create a class that cannot be inherited,D) To define constants,B,1
+77,Which of the following is not a type of polymorphism in C++?,A) Compile-time polymorphism,B) Run-time polymorphism,C) Overloading polymorphism,D) Virtual polymorphism,D,1
+78,Which of the following types of inheritance is supported in C++?,A) Single inheritance,B) Multiple inheritance,C) Multilevel inheritance,D) All of the above,D,1
+79,Which of the following is not a characteristic of a copy constructor in C++?,A) It creates a new object as a copy of an existing object.,B) It can be called implicitly.,C) It can only be defined explicitly by the programmer.,D) It takes a reference to an object of the same class as a parameter.,C,1
+80,Which of the following is not a storage class specifier in C++?,A) auto,B) static,C) extern,D) friend,D,1
+81,Which data structure uses LIFO (Last In First Out) method to access elements?,A) Stack,B) Queue,C) Linked List,D) Array,A,1
+82,What is the worst-case time complexity of binary search?,A) O(1),B) O(n),C) O(log n),D) O(n log n),C,1
+83,"Which of the following data structures allows constant time O(1) for insertion, deletion, and search?",A) Array,B) Linked List,C) Hash Table,D) Binary Search Tree,C,1
+84,Which algorithm is used to find the shortest path in a weighted graph?,A) Depth-First Search,B) Breadth-First Search,C) Dijkstra's Algorithm,D) Kruskal's Algorithm,C,1
+85,What is the time complexity of merge sort in the worst case?,A) O(n),B) O(n log n),C) O(n^2),D) O(n^2 log n),B,1
+86,Which of the following is true about a circular linked list?,A) Last node points to the first node.,B) It can be singly or doubly linked.,C) Traversal can start at any node.,D) All of the above,D,1
+87,Which of the following is not an application of a stack?,A) Function call management,B) Undo mechanism in text editor,C) Job scheduling in an operating system,D) Parenthesis checking in expressions,C,1
+88,What is the height of an AVL tree with n nodes?,A) O(n),B) O(log n),C) O(n log n),D) O(1),B,1
+89,Which of the following data structures can be used to implement recursion?,A) Stack,B) Queue,C) Array,D) Linked List,A,1
+90,What is the purpose of a sentinel node in a linked list?,A) To mark the end of the list,B) To make list operations more uniform,C) To avoid special cases for empty lists,D) All of the above,D,1
+91,"What will be the output of the following code?         cpp std::vector<int> v = {1, 2, 3, 4, 5}; v.erase(v.begin() + 2); for(int i : v) std::cout << i << "" ""; ",A) 1 2 4 5,B) 1 2 3 4,C) 1 3 4 5,D) 1 2 3 5,A,4
+92,Which of the following is the correct syntax to create a vector of integers in C++?,A) vector<int> v;,B) std::vector<int> v;,C) vector of int v;,D) int vector v;,B,1
+93,Which of the following is the correct way to define a constant member function in C++?,A) void func() const;,B) const void func();,C) void const func();,D) const func() void;,A,1
+94,Which of the following is not a standard exception in C++?,A) std::bad_alloc,B) std::runtime_error,C) std::bad_cast,D) std::bad_input,D,1
+95,Which of the following statements is true about templates in C++?,A) Templates allow functions and classes to operate with generic types.,B) Templates are used for runtime polymorphism.,C) Templates are not type-safe.,D) Templates cannot be overloaded.,A,1
+96,Which of the following is the correct way to initialize a map in C++?,"A) std::map<int, std::string> m;","B) map<int, string> m;","C) std::map m<int, std::string>;",D) map of int and string m;,A,1
+97,Which of the following is not a feature of object-oriented programming in C++?,A) Encapsulation,B) Inheritance,C) Polymorphism,D) Pointers,D,1
+98,"What will be the output of the following code?       cpp int x = 5, y = 10; const int* ptr = &x; ptr = &y; std::cout << *ptr; ",A) 5,B) 10,C) 15,D) Compilation error,B,4
+99,Which of the following is not a feature of object-oriented programming in C++?,A) Encapsulation,B) Inheritance,C) Polymorphism,D) Pointers,D,1
+100,Which of the following data structures is not a linear data structure?,A) Stack,B) Queue,C) Binary Tree,D) Array,C,1
+101,What is the time complexity of searching for an element in a balanced binary search tree?,A) O(1),B) O(log n),C) O(n),D) O(n log n),B,2
+102,Which of the following operations is not performed in constant time on a doubly linked list?,A) Insertion at the beginning,B) Deletion at the end,C) Accessing a middle element,D) Deletion at the beginning,C,2
+103,Which data structure is used to perform recursion?,A) Queue,B) Stack,C) Linked List,D) Array,B,2
+104,Which of the following is true about a full binary tree?,A) Every node has either 0 or 2 children.,B) All levels except possibly the last are completely filled.,C) All leaves are at the same level.,D) Every node has at most 2 children.,A,2
+105,Which of the following algorithms can be used to sort a linked list?,A) Quick Sort,B) Merge Sort,C) Bubble Sort,D) All of the above,D,2
+106,Which of the following data structures is best suited for implementing a priority queue?,A) Stack,B) Linked List,C) Binary Heap,D) Array,C,2
+107,What is the time complexity of the breadth-first search (BFS) algorithm in a graph?,A) O(V + E),B) O(V^2),C) O(E log V),D) O(E^2),A,2
+108,What is the main advantage of using a linked list over an array?,A) Fast access to elements,B) Fixed size,C) Dynamic size,D) Less memory usage,C,2
+109,Which of the following is true about a depth-first search (DFS) algorithm?,A) It uses a queue.,B) It explores all nodes at the present depth level before moving on to nodes at the next depth level.,C) It uses a stack.,D) It finds the shortest path in an unweighted graph.,C,2
+110,Which of the following is not a property of a red-black tree?,A) Every node is either red or black.,B) The root is always black.,C) All leaves are black.,D) Every path from a node to its descendant leaves has the same number of black nodes.,C,2
+111,Which of the following is true about a min-heap?,A) The root contains the largest element.,B) Every node is smaller than or equal to its children.,C) It is a complete binary tree.,D) Both B and C.,D,2
+112,What is the time complexity of inserting an element into a hash table (assuming no collisions)?,A) O(1),B) O(log n),C) O(n),D) O(n log n),A,2
+113,Which of the following sorting algorithms is not in-place?,A) Quick Sort,B) Merge Sort,C) Heap Sort,D) Insertion Sort,B,2
+114,Which data structure is most suitable for implementing a direct access table?,A) Array,B) Linked List,C) Stack,D) Queue,A,2
+115,Which of the following operations does not necessarily require modification of the structure in a linked list?,A) Insertion,B) Deletion,C) Traversal,D) Searching,C,2
+116,Which of the following is a disadvantage of using a singly linked list?,A) Insertion and deletion at the beginning are difficult.,B) Requires more memory per element due to pointers.,C) Cannot be traversed in reverse.,D) Fixed size.,C,2
+117,Which of the following data structures is used to convert infix expressions to postfix expressions?,A) Queue,B) Stack,C) Linked List,D) Binary Tree,B,2
+118,What is the best case time complexity of Bubble Sort?,A) O(n),B) O(n log n),C) O(n^2),D) O(1),A,2
+119,Which of the following traversals is used to get the prefix expression of a binary tree?,A) Inorder,B) Postorder,C) Preorder,D) Level-order,C,2
+120,Which of the following correctly describes a lambda expression in C++?,A) capture list -> return type { body },B) (parameters) [capture list] -> return type { body },C) [capture list] -> return type (parameters) { body },D) { body } -> return type [capture list] (parameters),A,2
+121,Which of the following is not a valid way to declare an array in C++?,A) int arr[5];,"B) int arr[] = {1, 2, 3};","C) int arr[5] = {1, 2, 3};",D) int arr[5] = new int[5];,D,2
+122,Which of the following is true about the 'const' keyword in C++?,A) It can be used to declare constants.,B) It can be used with member functions to prevent modification of member variables.,C) It can be used with pointers to prevent modification of the value pointed to.,D) All of the above,D,2
+123,What will be the output of the following code?       cpp int a = 10; int *p = &a; *p = 20; std::cout << a; ,A) 10,B) 20,C) 0,D) Compilation error,B,4
+124,Which of the following is the correct way to declare a reference variable in C++?,A) int &ref = 10;,B) int ref = &a;,C) int &ref = a;,D) int *ref = a;,C,2
+125,Which of the following operators cannot be overloaded in C++?,A) +,B) -,C) ::,D) [],C,2
+126,Which of the following is used to handle exceptions in C++?,A) try,B) catch,C) throw,D) All of the above,D,2
+127,Which of the following is a valid way to define a constant pointer to an integer in C++?,A) const int *p;,B) int const *p;,C) int *const p;,D) const int *const p;,C,2
+128,Which of the following sorting algorithms is the fastest for large datasets?,A) Bubble Sort,B) Insertion Sort,C) Quick Sort,D) Selection Sort,C,2
+129,Which data structure is used for breadth-first traversal of a graph?,A) Stack,B) Queue,C) Linked List,D) Array,B,2
+130,What is the primary disadvantage of using an array to implement a stack?,A) Slow access time,B) Fixed size,C) High memory usage,D) No random access,B,2
+131,Which data structure is used for implementing an undo mechanism in text editors?,A) Queue,B) Stack,C) Linked List,D) Array,B,2
+132,Which of the following algorithms can be used to find the minimum spanning tree of a graph?,A) Dijkstra's Algorithm,B) Kruskal's Algorithm,C) Bellman-Ford Algorithm,D) Floyd-Warshall Algorithm,B,2
+133,Which of the following is a self-balancing binary search tree?,A) AVL Tree,B) Binary Heap,C) B-Tree,D) Red-Black Tree,A,2
+134,Which of the following data structures can be used to implement a LIFO (Last In First Out) order?,A) Queue,B) Stack,C) Priority Queue,D) Linked List,B,2
+135,What is the worst-case time complexity of inserting an element into a binary search tree?,A) O(1),B) O(log n),C) O(n),D) O(n log n),C,2
+136,What is the main advantage of using a hash table over a binary search tree?,A) Faster search time in the average case,B) Easier to implement,C) Uses less memory,D) Maintains sorted order of elements,A,2
+137,Which of the following is true about a circular queue?,A) It allows insertion and deletion from both ends.,B) It overcomes the problem of wasted space in a linear queue.,C) It allows random access to elements.,D) It cannot be implemented using arrays.,B,2
+138,What is the time complexity of inserting an element at the beginning of a singly linked list?,A) O(1),B) O(log n),C) O(n),D) O(n log n),A,2
+139,Which traversal algorithm uses a stack as its auxiliary data structure?,A) Breadth-First Search,B) Depth-First Search,C) Level-Order Traversal,D) Inorder Traversal of a binary tree,B,2
+140,Which of the following data structures is not suitable for representing a sparse matrix?,A) Array,B) Linked List,C) Hash Table,D) List of Lists,A,2
+141,What is the main advantage of a doubly linked list over a singly linked list?,A) Less memory usage,B) Easier insertion and deletion at both ends,C) Faster search time,D) Simple implementation,B,2
+142,Which of the following algorithms can be used to detect a cycle in a graph?,A) Breadth-First Search,B) Depth-First Search,C) Kruskal's Algorithm,D) Dijkstra's Algorithm,B,2
+143,Which of the following data structures is best suited for implementing a direct access table?,A) Array,B) Linked List,C) Stack,D) Queue,A,2
+144,What is the primary disadvantage of using an array to implement a queue?,A) Slow access time,B) Fixed size,C) High memory usage,D) No random access,B,2
+145,Which of the following is not a balanced binary search tree?,A) AVL Tree,B) Red-Black Tree,C) B-Tree,D) Binary Heap,D,2
+146,What is the primary use of a hash function in a hash table?,A) To map keys to unique integers,B) To sort keys,C) To perform arithmetic operations on keys,D) To traverse the hash table,A,2
+147,Which of the following statements is true about a doubly linked list?,A) It requires more memory per node compared to a singly linked list.,B) It can be traversed in only one direction.,C) It has a fixed size.,D) It does not allow insertion at the end.,A,2
+148,Which of the following is a correct way to declare a function pointer in C++?,A) int *f();,B) int (*f)();,C) int (f)();,D) int f();,B,2
+149,"What will be the output of the following code?  cpp int arr[] = {10, 20, 30}; std::cout << sizeof(arr) / sizeof(arr[0]); ",A) 1,B) 2,C) 3,D) 10,C,4
+150,Which of the following is used to access members of a structure through a pointer in C++?,A) .,B) ->,C) &,D) *,B,2
+151,Which of the following is not a C++ access specifier?,A) public,B) private,C) protected,D) internal,D,2
+152,Which of the following is the correct syntax for a destructor in C++?,A) void ClassName();,B) ClassName();,C) void ClassName::();,D) ClassName::();,B,2
+153,"What is the output of the following code? cpp std::string s = ""Hello""; s += "" World""; std::cout << s;",A) Hello,B) HelloWorld,C) Hello World,D) Compilation error,C,4
+154,Which of the following is the correct way to declare a pure virtual function in C++?,A) .,B) ::,C) ->,D) &,B,3
+155,Which of the following data structures allows dynamic resizing?,A) Array,B) Linked List,C) Stack,D) Queue,B,3
+156,What is the time complexity of deleting an element from a binary heap?,A) O(1),B) O(log n),C) O(n),D) O(n log n),B,3
+157,Which of the following traversal methods is used to convert a binary search tree into a sorted list?,A) Preorder,B) Postorder,C) Inorder,D) Level-order,C,3
+158,Which data structure is used to manage the program call stack?,A) Queue,B) Stack,C) Array,D) Linked List,B,3
+159,What is the main difference between a B-tree and a binary search tree?,A) B-trees have a higher height.,B) B-trees can have more than two children.,C) B-trees are not balanced.,D) B-trees are used for sequential access only.,B,3
+160,Which of the following data structures is used to implement depth-first traversal of a graph?,A) Queue,B) Stack,C) Linked List,D) Array,B,3
+161,What is the best case time complexity of the quicksort algorithm?,A) O(n),B) O(n log n),C) O(n^2),D) O(1),B,3
+162,Which of the following data structures is used to implement priority queues?,A) Stack,B) Queue,C) Linked List,D) Binary Heap,D,3
+163,Which of the following operations is not performed in constant time on a stack implemented using an array?,A) Push,B) Pop,C) Top,D) Size,D,3
+164,What is the worst-case time complexity of the merge sort algorithm?,A) O(n),B) O(n log n),C) O(n^2),D) O(log n),B,3
+165,Which of the following data structures is used to represent a hierarchical relationship among elements?,A) Array,B) Stack,C) Queue,D) Tree,D,3
+166,Which of the following data structures is used for implementing a double-ended queue (deque)?,A) Array,B) Linked List,C) Stack,D) Both A and B,D,3
+167,What is the main advantage of using a skip list over a binary search tree?,A) Faster average case for search,B) Easier to implement,C) Requires less memory,D) Maintains sorted order of elements,A,3
+168,Which of the following is true about a perfect binary tree?,A) All levels are completely filled.,B) All nodes have two children except the leaves.,C) The tree is balanced.,D) All leaves are at the same level and all internal nodes have two children.,D,3
+169,Which of the following sorting algorithms has the best average case performance?,A) Bubble Sort,B) Insertion Sort,C) Quick Sort,D) Selection Sort,C,3
+170,What is the time complexity of searching for an element in a balanced binary search tree (BST)?,A) O(1),B) O(log n),C) O(n),D) O(n log n),B,3
+171,Which of the following is true about a singly linked list?,A) It allows traversal in both directions.,B) It has a fixed size.,C) Each node contains a pointer to the next node.,D) It uses more memory per node compared to a doubly linked list.,C,3
+172,What is the primary purpose of using a binary search tree (BST)?,A) To store data in a sorted order,"B) To perform quick searches, insertions, and deletions",C) To traverse data in O(1) time,D) To implement a queue,B,3
+173,Which of the following algorithms is used for finding the shortest path in a weighted graph?,A) Depth-First Search,B) Breadth-First Search,C) Dijkstra's Algorithm,D) Kruskal's Algorithm,C,3
+174,Which of the following data structures is best suited for implementing an undo feature in software applications?,A) Queue,B) Stack,C) Linked List,D) Array,B,3
+175,Which of the following keywords is used to prevent a variable from being modified in C++?,A) final,B) static,C) const,D) mutable,C,3
+176,"What is the output of the following code? cpp int a = 5, b = 3; std::cout << (a > b ? a : b);",A) 3,B) 5,C) true,D) false,B,4
+177,Which of the following is true about operator overloading in C++?,A) All operators can be overloaded.,B) Only member functions can be used to overload operators.,C) The precedence of operators cannot be changed.,D) Overloaded operators must have the same number of arguments as the original operators.,C,3
+178,Which of the following is not a feature of the C++ Standard Template Library (STL)?,A) Algorithms,B) Containers,C) Iterators,D) Threads,D,3
+179,"What is the output of the following code? cpp std::vector<int> v = {1, 2, 3}; v.push_back(4); std::cout << v.size();",A) 3,B) 4,C) 5,D) Compilation error,B,4
+180,Which of the following is true about virtual functions in C++?,A) They allow runtime polymorphism.,B) They must be defined in the derived class.,C) They can only be called from the base class.,D) They do not support inheritance.,A,3
+181,What is the purpose of the 'this' pointer in C++?,A) To store the address of the current object,B) To access static members of the class,C) To refer to the base class,D) To access global variables,A,3
+182,Which of the following data structures can be used to implement a breadth-first search on a graph?,A) Stack,B) Queue,C) Linked List,D) Binary Tree,B,3
+183,What is the main characteristic of a stack?,A) First In First Out (FIFO),B) Last In First Out (LIFO),C) Random access,D) Bidirectional traversal,B,3
+184,Which of the following is not a self-balancing binary search tree?,A) AVL Tree,B) Red-Black Tree,C) Splay Tree,D) Binary Heap,D,3
+185,What is the average case time complexity of searching for an element in a hash table with chaining?,A) O(1),B) O(log n),C) O(n),D) O(n log n),A,3
+186,Which data structure is used to implement the recursive function calls?,A) Queue,B) Stack,C) Linked List,D) Array,B,3
+187,Which of the following algorithms is used to sort a list in O(n log n) time?,A) Bubble Sort,B) Insertion Sort,C) Merge Sort,D) Selection Sort,C,3
+188,Which of the following is true about a circular linked list?,A) It has a fixed size.,B) It allows traversal in only one direction.,C) The last node points to the first node.,D) It uses more memory per node compared to a doubly linked list.,C,3
+189,What is the main advantage of using a priority queue over a regular queue?,A) Priority queues have faster insertion times.,B) Priority queues allow for random access to elements.,C) Priority queues can handle elements with different priorities.,D) Priority queues consume less memory.,C,3
+190,Which of the following is not a property of a binary search tree (BST)?,A) All nodes in the left subtree of a node have values less than the node's value.,B) All nodes in the right subtree of a node have values greater than or equal to the node's value.,C) BSTs can have multiple nodes with the same value.,"D) BSTs allow for efficient searching, insertion, and deletion.",C,3
+191,What is the primary advantage of using a heap over a binary search tree (BST)?,A) Heaps have faster average-case search times.,B) Heaps require less memory.,C) Heaps guarantee balanced trees.,D) Heaps allow for constant-time insertion and deletion.,D,3
+192,Which of the following is not a standard data type in C++?,A) float,B) double,C) decimal,D) char,C,3
+193,What is the output of the following code? cpp int x = 5; int *p = &x; std::cout << *p;,A) 5,B) &x,C) p,D) Compilation error,A,4
+194,Which of the following is used to dynamically allocate memory in C++?,A) new,B) malloc(),C) allocate(),D) heap(),A,3
+195,"What is the output of the following code? cpp int arr[5] = {1, 2, 3, 4, 5}; int *p = arr; std::cout << *(p+2);",A) 1,B) 2,C) 3,D) Compilation error,C,4
+196,Which of the following is a correct way to declare a structure in C++?,A) struct Person { name; age; };,B) struct Person { string name; int age; };,C) class Person { string name; int age; };,D) class Person { name; age; };,B,3
+197,What is the purpose of the 'static' keyword in C++?,A) To declare global variables.,B) To access private members of a class.,C) To create objects of a class.,D) To create class-wide variables and methods.,D,3
+198,Which of the following is used to free dynamically allocated memory in C++?,A) free(),B) delete,C) deallocate(),D) release(),B,3
+199,What is the output of the following code? cpp int x = 10; if (x > 5) { int y = 5; } std::cout << y; ,A) 5,B) 10,C) Compilation error,D) Runtime error,C,4
+200,Which of the following is a correct way to declare and initialize an array in C++?,"A) int arr[5] = {1, 2, 3};","B) int arr[3] = {1, 2, 3, 4};","C) int arr[] = {1, 2, 3};",D) int arr[3];,C,3
+201,What is the purpose of the 'friend' keyword in C++?,"A) To declare a function as a friend of a class, allowing access to its private members.",B) To create a new class derived from another class.,C) To declare a function as static.,D) To create a global function.,A,3
+202,What is the output of the following code? cpp int x = 5; int *p = &x; std::cout << p;,A) 5,B) &x,C) Address of p,D) Compilation error,B,4
+203,Which of the following is true about inheritance in C++?,A) Private members of the base class are accessible in the derived class.,B) Protected members of the base class are accessible in the derived class.,C) Public members of the base class are not inherited by the derived class.,D) Inheritance is only possible between classes of the same type.,B,3
+204,What is the output of the following code? cpp int a = 5; int b = 10; std::cout << (a + b++); ,A) 15,B) 16,C) 20,D) 25,A,4
+205,Which of the following statements is true about polymorphism in C++?,A) Polymorphism allows a derived class to inherit from multiple base classes.,B) Polymorphism is achieved through function overloading but not through function overriding.,C) Polymorphism allows a base class pointer to point to objects of derived classes.,D) Polymorphism can only be achieved through static binding.,C,3
+206,What is the output of the following code? cpp int x = 5; int *p = &x; std::cout << *p++;,A) 5,B) 6,C) Address of x,D) Compilation error,A,4
+207,Which of the following is true about function overloading in C++?,A) Function overloading allows multiple functions with the same name but different return types.,B) Function overloading is achieved by changing the number of arguments in a function.,C) Function overloading can only be done within the same class.,D) Function overloading is an example of compile-time polymorphism.,D,2
+208,What is the output of the following code? cpp int x = 10; int *p = &x; std::cout << *++p;,A) 10,B) 11,C) Address of x,D) Compilation error,B,4
+209,Which of the following is a correct way to define a destructor in C++?,A) void ClassName();,B) ClassName();,C) void ClassName::();,D) ClassName::();,B,2
+210,"What is the output of the following code? cpp int arr[] = {1, 2, 3, 4, 5}; std::cout << *(arr + 2);",A) 1,B) 2,C) 3,D) 4,C,4
+211,Which of the following keywords is used to inherit a class in C++?,A) extend,B) inherit,C) class,D) public,D,2
+212,What is the output of the following code? cpp int x = 5; int &ref1 = x; int &ref2 = ref1; std::cout << ref2;,A) 5,B) &x,C) ref1,D) Compilation error,A,4
+213,Which of the following is true about the 'const' keyword in C++?,"A) It makes a variable constant, and its value cannot be changed.",B) It is used to define a constant class.,C) It is used to create constant functions.,D) It is used to declare constant pointers.,A,1
+214,Which of the following is true about namespaces in C++?,A) Namespaces allow defining variables with the same name in different scopes.,B) Namespaces are used to declare classes only.,C) Namespaces cannot be nested.,D) Namespaces prevent name conflicts by providing a scope for identifiers.,D,3
+215,Which of the following is true about virtual destructors in C++?,A) Virtual destructors prevent memory leaks.,B) Virtual destructors are used to deallocate memory of base class objects.,C) Virtual destructors are not allowed in C++.,D) Virtual destructors ensure that the destructor of the derived class is called first.,A,3
+216,Which of the following is not a standard C++ data type?,A) int,B) float,C) string,D) char,C,3
+217,Which keyword is used to dynamically allocate memory in C++?,A) allocate,B) malloc,C) new,D) create,C,3
+218,What is the output of the following code? cpp int x = 10; int *p = &x; std::cout << p[0];,A) 10,B) Address of x,C) Compilation error,D) Undefined behavior,A,4
+219,Which data structure is used to implement a LIFO (Last In First Out) behavior?,A) Queue,B) Stack,C) Linked List,D) Tree,B,2
+220,What does the 'mutable' keyword do in C++?,A) It makes a variable constant.,"B) It allows a member function to modify the object it belongs to, even if the object is declared as const.",C) It specifies that a function cannot modify an object.,D) It prevents inheritance.,B,2
+221,What is the purpose of the 'volatile' keyword in C++?,A) It indicates that a variable may change asynchronously.,B) It prevents a variable from being modified.,C) It specifies that a variable cannot be accessed by multiple threads.,D) It is used to declare constant variables.,A,2
+222,Which of the following is not a valid access specifier in C++?,A) public,B) protected,C) internal,D) private,C,2
+223,What is the primary difference between a struct and a class in C++?,"A) Structs support inheritance, while classes do not.","B) Classes have private access by default, while structs have public access by default.","C) Structs cannot have member functions, while classes can.",D) There is no difference between structs and classes in C++.,B,2
+224,Which of the following is used to exit a loop in C++?,A) exit(),B) break,C) stop(),D) end(),B,2
+225,What is the purpose of the 'inline' keyword in C++?,A) It specifies that a function should be compiled as inline assembly.,"B) It indicates that a function's definition is provided in the header file, allowing the compiler to inline the function's code.",C) It prevents a function from being inlined.,D) It indicates that a function should be compiled with maximum optimization.,B,1
+226,Which of the following is used to open a file in C++?,A) open(),B) read(),C) fopen(),D) ifstream(),D,2
+227,Which of the following is not a standard C++ loop structure?,A) for loop,B) while loop,C) do-while loop,D) repeat loop,D,3
+228,What is the output of the following code? cpp int x = 5; std::cout << ++x;,A) 5,B) 6,C) 10,D) Compilation error,B,4
+229,Which of the following is true about templates in C++?,A) Templates are used to define constants.,B) Templates allow for generic programming by defining generic types and functions.,C) Templates are used to declare static members.,D) Templates are only applicable to classes.,B,2
+230,Which of the following is true about references in C++?,A) References cannot be reassigned once initialized.,B) References must be initialized with a default value.,C) References can only refer to primitive data types.,D) References have their own memory address.,A,2
+231,Which of the following is not a valid way to initialize an array in C++?,"A) int arr[] = {1, 2, 3};","B) int arr[3] = {1, 2, 3, 4};",C) int arr[3];,"D) int arr[3] {1, 2, 3};",B,2
+232,Which of the following is true about the 'delete' operator in C++?,A) It is used to deallocate memory allocated using malloc().,B) It is used to delete files from the system.,C) It is used to destroy objects created using new.,D) It is used to remove elements from an array.,C,1
+233,Which of the following is true about pointers in C++?,A) Pointers cannot be used in function arguments.,B) Pointers store the address of variables or functions.,C) Pointers cannot be initialized.,D) Pointers are a form of primitive data type.,B,2
+234,Which of the following is used to access the value at the address stored in a pointer variable?,A) Dereferencing operator (),B) Assignment operator (=),C) Address-of operator (&),D) Increment operator (++),A,2
+235,Which of the following is not a valid type of function in C++?,A) Member function,B) Friend function,C) Public function,D) Static function,C,2
+236,Which of the following data structures organizes elements in a sorted order based on their values?,A) Array,B) Queue,C) Stack,D) Binary Search Tree,D,3
+237,Which of the following is true about the 'static' keyword in C++?,A) It is used to declare global variables.,B) It allows access to private members of a class.,C) It creates objects of a class.,D) It makes variables or functions belong to the class rather than instances of the class.,D,2
+238,Which of the following is true about recursion in programming?,A) Recursion is always more efficient than iteration.,B) Recursion involves a function calling itself.,C) Recursion can only be used with arrays.,D) Recursion is not supported in C++.,B,1
+239,Which of the following is used to include the contents of one file into another file in C++?,"A) #include ""filename""",B) #include <filename>,C) #include {filename},"D) import ""filename""",A,2
+240,What is the output of the following code? cpp int x = 5; std::cout << x--;,A) 4,B) 5,C) 6,D) Compilation error,B,4
+241,Which of the following is true about the 'const' keyword in function parameters?,A) It prevents the function from modifying the parameter.,B) It makes the parameter mandatory.,C) It allows the function to modify the parameter.,D) It is used to declare a constant function.,A,2
+242,Which of the following is used to perform dynamic memory allocation in C++?,A) malloc(),B) free(),C) new,D) delete,C,3
+243,Which of the following is not a valid type of operator in C++?,A) Arithmetic operators,B) Relational operators,C) Logical operators,D) Decision operators,D,2
+244,Which of the following is true about the 'extern' keyword in C++?,A) It is used to define global variables.,B) It is used to declare global variables without defining them.,C) It is used to declare static variables.,D) It is used to declare local variables.,B,2
+245,Which of the following is true about the 'typedef' keyword in C++?,A) It is used to define new data types.,B) It is used to declare variables.,C) It is used to define constants.,D) It is used to declare functions.,A,1
+246,"What is the output of the following code? cpp int arr[5] = {1, 2, 3, 4, 5}; std::cout << arr[3];",A) 1,B) 2,C) 4,D) 5,C,4
+247,Which of the following is true about the 'nullptr' keyword in C++?,A) It is used to define null pointers.,B) It is used to create null objects.,C) It is used to terminate loops.,D) It is used to specify a function as null.,A,2
+248,What is the purpose of the 'const' keyword in C++?,A) To declare a constant variable.,B) To specify a function as a constant.,C) To define a constant class.,D) To create constant pointers.,A,2
+249,What is the output of the following code? cpp int x = 7; int y = 3; std::cout << (x / y);,A) 2,B) 2.0,C) 3,D) Compilation error,A,4
+250,Which data structure is typically used to implement a queue?,A) Linked List,B) Stack,C) Binary Search Tree,D) Array,A,1
+251,What does the 'break' statement do in a loop?,A) It continues to the next iteration of the loop.,B) It exits the loop immediately.,C) It skips a specific iteration of the loop.,D) It restarts the loop from the beginning.,B,3
+252,"What is the output of the following code? cpp int arr[5] = {1, 2, 3, 4, 5}; std::cout << arr[10];",A) 1,B) 2,C) 4,D) Compilation error,D,4
+253,Which of the following is true about the 'typedef' keyword in C++?,A) It is used to create aliases for existing data types.,B) It is used to define new classes.,C) It is used to define macros.,D) It is used to declare static variables.,A,2
+254,Which of the following correctly initializes a string variable in C++?,"A) std::string name = ""John"";","B) string name = ""John"";","C) char name[] = ""John"";","D) name = ""John"";",A,2
+255,What is the purpose of the 'static' keyword in C++ classes?,A) It allows access to private members.,B) It prevents the class from being inherited.,C) It makes the members belong to the class rather than instances.,D) It defines constant members.,C,3
+256,What is the output of the following code? cpp int x = 10; int y = 3; std::cout << (x % y); ,A) 1,B) 2,C) 3,D) Compilation error,A,4
+257,Which of the following data structures uses First-In-First-Out (FIFO) ordering?,A) Stack,B) Queue,C) Linked List,D) Binary Tree,B,1
+258,What does the 'continue' statement do in a loop?,A) It exits the loop.,B) It skips the remaining code in the loop and continues with the next iteration.,C) It restarts the loop from the beginning.,D) It skips a specific iteration of the loop.,B,3
+259,Which of the following is true about the 'nullptr' keyword in C++?,A) It is used to define null pointers.,B) It is used to create null objects.,C) It is used to terminate loops.,D) It is used to specify a function as null.,A,3
+260,Which of the following is true about the 'break' statement in C++?,A) It exits the program immediately.,B) It exits the current loop or switch statement.,C) It continues to the next iteration of the loop.,D) It skips a specific iteration of the loop.,B,2
+261,Which of the following is true about the 'typedef' keyword in C++?,A) It is used to define new data types.,B) It is used to declare variables.,C) It is used to define constants.,D) It is used to declare functions.,A,2
+262,Which of the following is not a valid type of loop in C++?,A) for loop,B) while loop,C) do-while loop,D) forever loop,D,2
+263,Which of the following is true about the 'nullptr' keyword in C++?,A) It is used to define null pointers.,B) It is used to create null objects.,C) It is used to terminate loops.,D) It is used to specify a function as null.,A,2
+264,Which of the following data structures organizes elements in a sorted order based on their values?,A) Array,B) Queue,C) Stack,D) Binary Search Tree,D,2
+265,What does the 'continue' statement do in a loop?,A) It exits the loop.,B) It skips the remaining code in the loop and continues with the next iteration.,C) It restarts the loop from the beginning.,D) It skips a specific iteration of the loop.,B,2
+266,"What is the output of the following code? cpp int arr[5] = {1, 2, 3, 4, 5}; std::cout << arr[10];",A) 1,B) 2,C) 4,D) Compilation error,D,4
+267,What is the purpose of the 'break' statement in a switch-case construct?,A) To continue to the next case.,B) To exit the switch statement.,C) To skip a specific case.,D) To restart the switch statement.,B,3
+268,Which of the following is true about the 'nullptr' keyword in C++?,A) It is used to define null pointers.,B) It is used to create null objects.,C) It is used to terminate loops.,D) It is used to specify a function as null.,A,2
+269,Which of the following is true about the 'const' keyword in C++?,A) It makes a variable constant.,B) It allows a function to modify an object.,C) It is used to declare static variables.,D) It prevents inheritance.,A,2
+270,What is the output of the following code? cpp int x = 5; int y = 3; std::cout << (x += y);,A) 5,B) 8,C) 15,D) Compilation error,B,4
+271,Which of the following correctly initializes a string in C++?,"A) string name = ""John"";","B) char name = ""John"";","C) std::string name = ""John"";","D) name = ""John"";",C,2
+272,Which of the following data structures uses Last-In-First-Out (LIFO) ordering?,A) Queue,B) Stack,C) Linked List,D) Binary Tree,B,2
+273,What does the 'continue' statement do in a loop?,A) It exits the loop.,B) It skips the remaining code in the loop and continues with the next iteration.,C) It restarts the loop from the beginning.,D) It skips a specific iteration of the loop.,B,2
+274,Which of the following is true about the 'static' keyword in C++?,A) It is used to define global variables.,B) It allows access to private members of a class.,C) It creates objects of a class.,D) It makes variables or functions belong to the class rather than instances of the class.,D,2
+275,Which of the following is not a valid way to initialize a string in C++?,"A) std::string name = ""John"";","B) char name[] = ""John"";","C) string name = ""John"";","D) name = ""John"";",D,2
+276,Which of the following is true about the 'nullptr' keyword in C++?,A) It is used to define null pointers.,B) It is used to create null objects.,C) It is used to terminate loops.,D) It is used to specify a function as null.,A,2
+277,Which of the following is true about the 'const' keyword in C++?,A) It makes a variable constant.,B) It allows a function to modify an object.,C) It is used to declare static variables.,D) It prevents inheritance.,A,2
+278,Which of the following correctly initializes a string in C++?,"A) string name = ""John"";","B) char name = ""John"";","C) std::string name = ""John"";","D) name = ""John"";",C,2
+279,Which of the following data structures uses Last-In-First-Out (LIFO) ordering?,A) Queue,B) Stack,C) Linked List,D) Binary Tree,B,2
+280,Which of the following is true about the 'static' keyword in C++?,A) It is used to define global variables.,B) It allows access to private members of a class.,C) It creates objects of a class.,D) It makes variables or functions belong to the class rather than instances of the class.,D,2
+281,Which of the following is true about the 'nullptr' keyword in C++?,A) It is used to define null pointers.,B) It is used to create null objects.,C) It is used to terminate loops.,D) It is used to specify a function as null.,A,2
+282,What was the primary motivation behind the development of C++?,A) To improve the performance of C programs,B) To add object-oriented features to the C language,C) To replace the C language entirely,D) To make programming easier for beginners,B,2
+283,Which programming language heavily influenced the syntax and semantics of C++?,A) Java,B) C,C) Python,D) Pascal,B,2
+284,What was the original name of C++ before it was renamed to C++?,A) C# (C Sharp),B) D++,C) C--,D) C with Classes,D,2
+285,Which of the following is a feature introduced in C++11?,A) Smart pointers,B) Templates,C) Namespaces,D) Exception handling,A,2
+286,What is the significance of the 'const' keyword in C++?,A) It creates constant variables.,B) It defines static variables.,C) It allows multiple inheritance.,D) It is used for type casting.,A,2
+287,What is a binary tree data structure?,A) A tree where each node can have more than two children,B) A tree where each node has exactly two children,C) A tree where nodes are arranged in a circular fashion,D) A tree that cannot have any children,B,2
+288,What is the purpose of a heap data structure?,A) To store elements in sorted order,B) To represent a hierarchical tree structure,C) To perform priority queue operations efficiently,D) To manage memory allocation and deallocation,C,2
+289,What is a trie data structure used for?,A) Representing hierarchical relationships,B) Storing elements in a sorted order,C) Efficiently storing and searching strings,D) Managing memory allocation,C,2
+290,What is the main advantage of using a linked list over an array?,A) Linked lists have faster access times for elements.,B) Linked lists can resize dynamically.,C) Linked lists have better cache performance.,D) Linked lists consume less memory.,B,2
+291,What is a priority queue data structure used for?,A) Storing elements in sorted order,B) Performing priority-based sorting,C) Representing hierarchical relationships,D) Handling memory allocation,B,2
+292,What is the purpose of a doubly linked list data structure?,A) To store elements in a sorted order,B) To represent hierarchical relationships,C) To efficiently perform insertion and deletion operations,D) To perform priority queue operations,C,2
+293,What is a graph data structure used for?,A) Representing linear data,B) Storing elements in a hierarchical manner,C) Representing relationships between objects,D) Managing memory allocation,C,2
+294,What is the time complexity of finding the shortest path between two nodes in a graph using Dijkstra's algorithm?,A) O(log n),B) O(n),C) O(n log n),D) O(E + V log V),D,2
+295,What is an AVL tree data structure used for?,A) Efficiently storing and searching strings,B) Representing hierarchical relationships,C) Ensuring balanced binary search trees,D) Managing priority queue operations,C,2
+296,What is a hash map data structure used for?,A) Storing elements in a sorted order,B) Efficiently storing and retrieving key-value pairs,C) Performing priority-based sorting,D) Representing hierarchical relationships,B,2
+297,Who is credited with the creation of the STL (Standard Template Library) in C++?,A) Bjarne Stroustrup,B) Alexander Stepanov,C) Dennis Ritchie,D) Donald Knuth,B,2
+298,What is the purpose of the auto keyword introduced in modern C++ versions?,A) To define global variables,B) To specify static data types,C) To enable automatic type inference,D) To control memory allocation,C,2
+299,Which data structure is suitable for implementing a Least Recently Used (LRU) cache?,A) Stack,B) Queue,C) Linked List,D) Binary Search Tree,C,2
+300,What is the time complexity of finding an element in a binary search tree (BST) with n nodes in the worst case?,A) O(1),B) O(log n),C) O(n),D) O(n log n),B,2
